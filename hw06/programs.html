@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf=8">
+        <title>BTOB programs</title>
+        <style>
+            body {
+                font-family: 'NanumSquare';
+                font-size: larger;
+            }
+            #grid {
+                display: grid;
+                background-color: #42B4E6;
+                vertical-align: middle;
+                color: white;
+                grid-template-columns: 1fr 1fr;
+                margin-bottom: 30px;
+            }
+            a {
+                text-decoration: none;
+                color: black;
+            }
+            #logo {
+                margin: 10px;
+                float: right;
+            }
+            #main {
+                height: 30px;
+                padding: 45px 0px;
+                vertical-align: middle;
+                text-align: left;
+            }
+            .title {
+                font-family: 'RIDIBatang';
+                font-size: 30px;
+            }
+            #last {
+                font-family: 'RIDIBatang';
+                padding: 15px;
+                vertical-align: middle;
+                background-color: #42B4E6;
+                font-size: medium;
+                color: white;
+                font-style: italic;
+            }
+            #kingdom {
+                width: 70%;
+                display: grid;
+                grid-template-columns: 300px 1fr;
+            }
+            ul {
+                list-style-type: none;
+                text-align: left;
+                line-height: 40px;
+                margin-bottom: 30px;
+            }
+            .love {
+                color: red;
+                font-weight: bold;
+            }
+            .bold {
+                color: blue;
+            }
+            figcaption {
+                font-size: medium;
+                font-style: italic;
+                color: gray;
+            }
+        </style>
+    </head>
+    <body>
+        <center>
+            <div id="grid">
+                <a href="./hw06.html" target="_self">
+                <img id=logo src="./img/btobb.png" width="100" height="100"></a>
+                <span id="main" class="title">방송 정보</span>
+            </div>
+            <div id="kingdom">
+                <span>
+                    <img src="./img/kingdome.png" width="300" height="300">
+                </span>
+                <span>
+                    <ul>
+                        <li>킹덤:레전더리 워</li>
+                        <li>2021.04.01 ~ </li>
+                        <li>매주 목요일 저녁 7시 50분 방송</li>
+                        <li>MC : 최강창민</li>
+                        <li>출연진 : 비투비, iKON, SF9, 더보이즈, Stray Kids, 에이티즈</li>
+                        <li><a class="bold" href="https://www.youtube.com/watch?v=Sa7u3kWeq3s" target="_blank">
+                        첫번째 경연 비투비 퍼포먼스 보러가기</a></li>
+                        <li class="love">♥비투비에게 많은 관심 부탁드립니다♥</li>
+                    </ul>
+                </span>
+            </div>
+            <img src="./img/kingdomebtob.jpg" width="600" height="450">
+            <figcaption>비투비 대면식 퍼포먼스 포스터</figcaption>
+            <p id="last">※비투비 로고를 누르면 메인으로 돌아갑니다.</p>
+        </center>
+    </body>
+</html>
